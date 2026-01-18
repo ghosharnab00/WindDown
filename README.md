@@ -5,6 +5,34 @@ A minimal macOS menu bar app that blocks work apps and websites after hours to h
 ![macOS](https://img.shields.io/badge/macOS-13.0+-blue)
 ![Swift](https://img.shields.io/badge/Swift-5.0-orange)
 
+## Download
+
+**[Download WindDown.dmg](https://github.com/ghosharnab00/WindDown/releases/latest/download/WindDown.dmg)**
+
+## Installation
+
+1. Download `WindDown.dmg`
+2. Double-click to open the DMG
+3. Drag `WindDown.app` to the `Applications` folder
+4. Open WindDown from Applications
+
+### First Launch (Important)
+
+Since the app isn't notarized by Apple, macOS will block it initially:
+
+1. **Right-click** (or Control-click) on `WindDown.app`
+2. Select **Open** from the menu
+3. Click **Open** in the dialog that appears
+
+You only need to do this once. After that, the app will open normally.
+
+### Grant Permissions
+
+WindDown needs these permissions to work:
+
+- **Notifications**: To alert you when blocking starts
+- **Accessibility** (optional): For enhanced app monitoring
+
 ## Features
 
 - **App Blocking** - Automatically terminates work apps (Slack, Teams, VS Code, etc.) during personal time
