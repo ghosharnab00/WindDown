@@ -7,7 +7,7 @@ A minimal macOS menu bar app that blocks work apps and websites after hours to h
 
 ## Download
 
-**[Download WindDown.dmg](https://github.com/ghosharnab00/WindDown/releases/latest/download/WindDown.dmg)**
+**[Download WindDown.dmg](https://github.com/ghosharnab00/WindDown/releases/download/v1.0.0/WindDown.dmg)**
 
 ## Installation
 
