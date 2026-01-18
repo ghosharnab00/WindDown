@@ -1,0 +1,180 @@
+{
+  "apps": [
+    {
+      "bundleID": "com.tinyspeck.slackmacgap",
+      "name": "Slack",
+      "category": "communication",
+      "isEnabled": true
+    },
+    {
+      "bundleID": "com.microsoft.teams",
+      "name": "Microsoft Teams",
+      "category": "communication",
+      "isEnabled": true
+    },
+    {
+      "bundleID": "com.microsoft.teams2",
+      "name": "Microsoft Teams (New)",
+      "category": "communication",
+      "isEnabled": true
+    },
+    {
+      "bundleID": "notion.id",
+      "name": "Notion",
+      "category": "documentation",
+      "isEnabled": true
+    },
+    {
+      "bundleID": "com.microsoft.VSCode",
+      "name": "VS Code",
+      "category": "code",
+      "isEnabled": true
+    },
+    {
+      "bundleID": "com.microsoft.Outlook",
+      "name": "Outlook",
+      "category": "communication",
+      "isEnabled": true
+    },
+    {
+      "bundleID": "com.apple.mail",
+      "name": "Apple Mail",
+      "category": "communication",
+      "isEnabled": false
+    },
+    {
+      "bundleID": "com.linear",
+      "name": "Linear",
+      "category": "projectManagement",
+      "isEnabled": true
+    }
+  ],
+  "websites": [
+    {
+      "domain": "slack.com",
+      "name": "Slack",
+      "category": "communication",
+      "isEnabled": true,
+      "additionalSubdomains": ["app.slack.com", "api.slack.com", "files.slack.com", "edgeapi.slack.com", "wss-primary.slack.com", "wss-backup.slack.com", "slack-edge.com", "slackb.com"]
+    },
+    {
+      "domain": "teams.microsoft.com",
+      "name": "Microsoft Teams",
+      "category": "communication",
+      "isEnabled": true,
+      "additionalSubdomains": ["teams.live.com", "statics.teams.cdn.office.net", "teams.office.com", "teams.cdn.office.net"]
+    },
+    {
+      "domain": "gmail.com",
+      "name": "Gmail",
+      "category": "communication",
+      "isEnabled": true,
+      "additionalSubdomains": ["mail.google.com", "inbox.google.com", "googlemail.com", "mail-attachment.googleusercontent.com"]
+    },
+    {
+      "domain": "outlook.com",
+      "name": "Outlook",
+      "category": "communication",
+      "isEnabled": true,
+      "additionalSubdomains": ["outlook.live.com", "outlook.office.com", "outlook.office365.com", "mail.live.com", "hotmail.com", "live.com"]
+    },
+    {
+      "domain": "notion.so",
+      "name": "Notion",
+      "category": "documentation",
+      "isEnabled": true,
+      "additionalSubdomains": ["notion.site", "api.notion.com", "notion-static.com"]
+    },
+    {
+      "domain": "docs.google.com",
+      "name": "Google Docs",
+      "category": "documentation",
+      "isEnabled": true,
+      "additionalSubdomains": ["sheets.google.com", "slides.google.com", "drive.google.com", "forms.google.com", "sites.google.com"]
+    },
+    {
+      "domain": "confluence.atlassian.com",
+      "name": "Confluence",
+      "category": "documentation",
+      "isEnabled": true,
+      "additionalSubdomains": ["atlassian.net"]
+    },
+    {
+      "domain": "github.com",
+      "name": "GitHub",
+      "category": "code",
+      "isEnabled": true,
+      "additionalSubdomains": ["api.github.com", "gist.github.com", "raw.githubusercontent.com", "githubusercontent.com", "github.io", "github.dev", "copilot.github.com", "objects.githubusercontent.com"]
+    },
+    {
+      "domain": "gitlab.com",
+      "name": "GitLab",
+      "category": "code",
+      "isEnabled": true,
+      "additionalSubdomains": ["registry.gitlab.com", "assets.gitlab-static.net"]
+    },
+    {
+      "domain": "console.aws.amazon.com",
+      "name": "AWS Console",
+      "category": "code",
+      "isEnabled": true,
+      "additionalSubdomains": ["aws.amazon.com", "signin.aws.amazon.com", "us-east-1.console.aws.amazon.com", "us-west-2.console.aws.amazon.com", "eu-west-1.console.aws.amazon.com"]
+    },
+    {
+      "domain": "cloud.google.com",
+      "name": "Google Cloud",
+      "category": "code",
+      "isEnabled": true,
+      "additionalSubdomains": ["console.cloud.google.com", "shell.cloud.google.com", "firebase.google.com", "console.firebase.google.com"]
+    },
+    {
+      "domain": "portal.azure.com",
+      "name": "Azure Portal",
+      "category": "code",
+      "isEnabled": true,
+      "additionalSubdomains": ["azure.microsoft.com", "azure.com", "dev.azure.com", "login.microsoftonline.com"]
+    },
+    {
+      "domain": "linear.app",
+      "name": "Linear",
+      "category": "projectManagement",
+      "isEnabled": true,
+      "additionalSubdomains": ["api.linear.app"]
+    },
+    {
+      "domain": "asana.com",
+      "name": "Asana",
+      "category": "projectManagement",
+      "isEnabled": true,
+      "additionalSubdomains": ["app.asana.com", "api.asana.com"]
+    },
+    {
+      "domain": "jira.atlassian.com",
+      "name": "Jira",
+      "category": "projectManagement",
+      "isEnabled": true,
+      "additionalSubdomains": ["atlassian.com", "atlassian.net", "jira.com"]
+    },
+    {
+      "domain": "trello.com",
+      "name": "Trello",
+      "category": "projectManagement",
+      "isEnabled": true,
+      "additionalSubdomains": ["api.trello.com"]
+    },
+    {
+      "domain": "monday.com",
+      "name": "Monday.com",
+      "category": "projectManagement",
+      "isEnabled": true,
+      "additionalSubdomains": ["api.monday.com"]
+    },
+    {
+      "domain": "basecamp.com",
+      "name": "Basecamp",
+      "category": "projectManagement",
+      "isEnabled": true,
+      "additionalSubdomains": ["3.basecamp.com", "launchpad.37signals.com"]
+    }
+  ]
+}
